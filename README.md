@@ -35,4 +35,4 @@ CREATE TABLE retail_sales
     total_sale FLOAT
 );
 
-``sql
+```sql
