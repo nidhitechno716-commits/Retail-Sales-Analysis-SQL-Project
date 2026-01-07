@@ -43,7 +43,7 @@ CREATE TABLE retail_sales
 3.Category Count: Identify all unique product categories in the dataset.
 4.Null Value Check: Check for any null values in the dataset and delete records with missing data.
 
-```
+```sql
 SELECT COUNT(*) FROM retail_sales;
 SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
 SELECT DISTINCT category FROM retail_sales;
